@@ -1,0 +1,21 @@
+
+.autocomplete__input{
+    font-size:  14px;
+}
+
+.autocomplete__list {
+    border: 1px solid gray;
+    border-bottom: 0px;
+    overflow: auto;
+    font: 400 16px Arial;
+}
+
+
+.autocomplete__list__li {
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.autocomplete__list__li:hover {
+    background-color: aliceblue;
+}
