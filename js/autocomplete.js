@@ -64,5 +64,5 @@ class Autocomplete {
     }
 }
 
-let carComplete = new Autocomplete(cars,'Select car','cars');
+let carComplete = new Autocomplete(cars,'Select car');
 
