@@ -49,7 +49,7 @@ class Autocomplete {
             divLi.classList.add('autocomplete__list__li');
             list.append(divLi);
 
-            divLi.innerHTML  = (this.searchValue((value+ ''),input.value) && input.value!=='')?
+            divLi.innerHTML  = (this.searchValue((value+ ''),input.value))?
                 `<strong>${(value+ '').slice(0,input.value.length)}</strong>${(value+ '').slice(input.value.length)}`
                 : value;
 
